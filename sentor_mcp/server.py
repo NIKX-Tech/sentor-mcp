@@ -1,6 +1,9 @@
 """Sentor MCP Server — exposes sentiment analysis, clustering, and topic naming as MCP tools."""
 
+from __future__ import annotations
+
 import os
+from typing import List, Optional
 import httpx
 from mcp.server.fastmcp import FastMCP
 
@@ -31,7 +34,7 @@ def _headers() -> dict:
 
 @mcp.tool()
 def analyze_sentiment(
-    docs: list[dict],
+    docs: List[dict],
     language: str = "en",
 ) -> dict:
     """Analyze entity-based sentiment in one or more documents.
@@ -64,7 +67,7 @@ def analyze_sentiment(
 
 @mcp.tool()
 def cluster_documents(
-    documents: list[dict],
+    documents: List[dict],
     language: str = "en",
 ) -> dict:
     """Group documents into thematic clusters using BERTopic + HDBSCAN.
@@ -107,9 +110,9 @@ def cluster_documents(
 @mcp.tool()
 def name_topic(
     cluster_id: int,
-    documents: list[dict],
-    top_words: list[str] | None = None,
-    entities: list[str] | None = None,
+    documents: List[dict],
+    top_words: Optional[List[str]] = None,
+    entities: Optional[List[str]] = None,
     language: str = "en",
 ) -> dict:
     """Generate a short descriptive name for a document cluster using an LLM.
