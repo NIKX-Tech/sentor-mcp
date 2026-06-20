@@ -5,7 +5,7 @@ WORKDIR /app
 COPY pyproject.toml .
 COPY sentor_mcp/ ./sentor_mcp/
 
-RUN pip install --no-cache-dir -e ".[http]"
+RUN pip install --no-cache-dir -e .
 
 ENV SENTOR_BASE_URL=https://sentor.app/api
 
