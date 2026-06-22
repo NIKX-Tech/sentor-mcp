@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.nikx-tech/sentor-mcp",
+  "title": "Sentor",
+  "description": "Entity-based sentiment analysis — score sentiment toward specific entities in text, cluster documents by topic, and generate topic labels using fine-tuned BERT models.",
+  "repository": {
+    "url": "https://github.com/NIKX-Tech/sentor-mcp",
+    "source": "github"
+  },
+  "version": "1.0.4",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "sentor-mcp",
+      "version": "1.0.4",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "SENTOR_API_KEY",
+          "description": "Your Sentor API key. Get one free at https://dashboard.sentor.app/settings?tab=api-access",
+          "required": true
+        },
+        {
+          "name": "SENTOR_BASE_URL",
+          "description": "Sentor API base URL. Defaults to https://sentor.app/api",
+          "required": false
+        }
+      ]
+    }
+  ]
+}
