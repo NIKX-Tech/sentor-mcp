@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033 -->
 # Sentor MCP Server
 
-<img src="logo.svg" width="70" alt="Sentor Logo">
+<img src="https://raw.githubusercontent.com/NIKX-Tech/sentor-mcp/prod/logo.png" width="70" alt="Sentor Logo">
 
 **Entity-based sentiment analysis for Claude, Cursor, Windsurf, and any MCP-compatible AI assistant.**
 
