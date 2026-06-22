@@ -248,7 +248,7 @@ The server exposes:
 
 ---
 
-<!-- mcp-name: io.github.nikx-tech/sentor-mcp -->
+<!-- mcp-name: io.github.NIKX-Tech/sentor-mcp -->
 
 <p align="center">
   Built by <a href="https://nikx.one">NIKX Technologies B.V.</a>
