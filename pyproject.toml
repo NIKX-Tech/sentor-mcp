@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sentor-mcp"
-version = "1.0.1"
+version = "1.0.2"
 description = "Sentor AI MCP Server — entity-based sentiment analysis tools for Claude, Cursor, and any MCP-compatible AI assistant"
 readme = "README.md"
 license = { text = "MIT" }
@@ -15,7 +15,6 @@ classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
