@@ -198,13 +198,13 @@ name_topic(
 
 ## 📊 Rate Limits
 
-| Plan | Per Minute | Per Day | Per Month | Projects | AI Reports |
-|------|-----------|---------|-----------|----------|------------|
-| **Free** | 5 | 100 | 1,000 | 3 | 2/month |
-| **Starter** | 20 | 600 | 5,000 | 5 | 15/month |
-| **Growth** | 60 | 3,000 | 25,000 | 15 | 50/month |
-| **Business** | 200 | 10,000 | 100,000 | 50 | 200/month |
-| **Enterprise** | 500 | 30,000 | 500,000 | Unlimited | Unlimited |
+| Plan | Per Minute | Per Day | Per Month |
+|------|:---------:|:-------:|:---------:|
+| **Free** | 5 | 100 | 1,000 |
+| **Starter** | 60 | 1,000 | 10,000 |
+| **Growth** | 200 | 3,000 | 30,000 |
+| **Business** | 500 | 10,000 | 100,000 |
+| **Enterprise** | Custom | Custom | Custom |
 
 [View full pricing →](https://sentor.app/pricing)
 
