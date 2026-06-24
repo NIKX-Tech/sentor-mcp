@@ -200,11 +200,11 @@ name_topic(
 
 | Plan | Per Minute | Per Day | Per Month |
 |------|:---------:|:-------:|:---------:|
-| **Free** | 3 | 30 | 300 |
-| **Starter** | 60 | 500 | 3,000 |
-| **Growth** | 200 | 2,000 | 15,000 |
-| **Business** | 500 | 5,000 | 60,000 |
-| **Enterprise** | Unlimited | Unlimited | Unlimited |
+| **Free** | 5 | 100 | 1,000 |
+| **Starter** | 60 | 1,000 | 10,000 |
+| **Growth** | 200 | 3,000 | 30,000 |
+| **Business** | 500 | 10,000 | 100,000 |
+| **Enterprise** | Custom | Custom | Custom |
 
 [View full pricing →](https://sentor.app/pricing)
 
